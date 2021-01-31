@@ -1,4 +1,10 @@
+'''
+Regressao Linear Multipla
+Esse código tem como objetivo utilizar o método de regressão para prever resultados de mpg, além de analisar os resultados.
+A base de dados utilizada foi o dataset público auto-mpg.
 
+Author: Amanda Sayuri Guimarães
+'''
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -13,8 +19,7 @@ data = data[data.horsepower != '?']
 data.horsepower = data.horsepower.astype(float)
 
 
-# Plot - não precisa retirar os valores que não são float
-# Seleciona float automaticamente 
+# Plot - scatter matrix
 grr = pd.plotting.scatter_matrix(data,figsize=(15, 15), marker='o',
                                  hist_kwds={'bins': 20}, s=60, alpha=.8)
 
