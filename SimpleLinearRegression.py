@@ -1,6 +1,6 @@
 '''
 Regressao Linear Simples
-Esse código tem como objetivo utilizar o método de regressão simples para preverresultados de mpg utilizando os dados de horsepower e analisar os resultados.
+Esse código tem como objetivo utilizar o método de regressão simples para prever resultados de mpg utilizando os dados de horsepower, além de analisar os resultados.
 A base de dados utilizada foi o dataset público auto-mpg.
 
 Author: Amanda Sayuri Guimarães
