@@ -68,7 +68,7 @@ plt.ylabel('Studentized Residuals')
 # Análise final:
 ''' 
 - Existe uma relação clara entre o preditor e a resposta. 
-- 60% da variação do mpg é explicado por horsepower 
+- 60% da variação do mpg é explicada por horsepower 
 - Quanto maior o horsepower, menor o mgp 
 - Caso horsepower seja = 98, o mpg será de 24.45
 - Pelo gráfico de resíduos, vemos que a relação não é linear
